@@ -1,0 +1,36 @@
+body,html,div,ul,li,ol,dl,dt,dd,input,p,fieldset,legend,form,table,
+h1,h2,h3,h4,h5,h6,pre,textarea,td,th{
+    margin: 0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+fieldset,img,input{
+    border: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;
+}
+u{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
